@@ -1,79 +1,3 @@
-
-/* index */
-
-#body-index{
-
-}
-
-#title-principal-index{
-color: black;
-}
-#header-index{
-    background-color: #88ff12;
-
-}
-#hero-image-index{
-    width: 100%;
-    height: 30vh;
-    background-color:  rgb(255, 220, 177);
-}
-#caixas-index{
-    display: flex;
-    flex-direction:row;
-   justify-content: space-around;
-  text-align: center;
-}
-
-#caixa-index-1{
-width: 20vw;
-height: 40vh;
-background-color:   rgb(255, 220, 177);
-}
-
-#caixa-index-2{
-    width: 20vw;
-    height: 40vh;
-    background-color:   rgb(255, 220, 177);
-}
-
-#caixa-index-3{
-    width: 20vw;
-height:40vh;
-background-color:  rgb(255, 220, 177);
-}
-
-/* footer */
-#footer-index{
-    width: 100%;
-    height: 9vh;
-    background-color: #0081bf;  
-}
- 
-.fonte-footer-index{
-    font-size:1.063rem;
-    margin: 0;
-    display: flex;
-   justify-content: center;
-   color: white;
- 
-}
-/* fontes */
-.title-mvv{
-    color: rgb(0, 0, 0);
-
-}
-/*  começo media */
-@media only screen and (min-width: 993px){
-
-    #header-index{
-        background-color: #2e4616;
-        text-align: center;
-    
-    }
-}
-/* fim media */
-/* fim index */
-
 /* Inicio HTML Cardápio by: Wendell (Donatello) */
 /* Cor bandana em hexadecimal: #7a46cc */
 /* Tartaruga: #2e4616 */
@@ -81,7 +5,8 @@ background-color:  rgb(255, 220, 177);
     background-color: #2e4616;
     display: flex;
     justify-content: center;
-    flex-flow: row nowrap;
+    flex-flow: nowrap;
+    align-items: center;
     text-align: center;
 }
 
@@ -104,33 +29,4 @@ background-color:  rgb(255, 220, 177);
 #texto-preto {
     color: black;
 }
-
 /* Fim HTML Cardápio by: Wendell (Donatello) */
-/* contatos */
-
-#container-contatos {
-    background-color: rgb(255, 0, 0);
-    width: 100vw;
-    height: 75.1vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-#nome {
-    background-color: rgb(17, 0, 255);
-    display: flex;
-}
-
-#email {
-    background-color: rgb(17, 0, 255);
-    display: flex;
-}
-
-#cel {
-    background-color: rgb(50, 42, 161);
-    display: flex;
-}
-
-/* fim Contatos */
