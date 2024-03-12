@@ -1,9 +1,70 @@
+<<<<<<< HEAD
 
+=======
+/* index */
+#hero-image-index{
+    width: 100%;
+    height: 15vh;
+    background-color:aquamarine;
+}
+#caixas-index{
+    display: flex;
+    flex-direction:row;
+   justify-content: space-around;
+}
+
+#caixa-index-1{
+width: 20vw;
+height: 50vh;
+background-color: aqua;
+}
+
+#caixa-index-2{
+    width: 20vw;
+    height: 50vh;
+    background-color: rgb(92, 5, 255);
+}
+
+#caixa-index-3{
+    width: 20vw;
+height: 50vh;
+background-color: rgb(235, 4, 4);
+}
+
+/* footer */
+#footer-index{
+    width: 100%;
+    height: 9vh;
+    background-color: #0081bf;  
+}
+ 
+.fonte-footer-index{
+    font-size:1.063rem;
+    margin: 0;
+    display: flex;
+   justify-content: center;
+   color: white;
+ 
+}
+/* fim index */
+>>>>>>> 8fa6e841c1d7ee49b4109152ee980df7a362b670
 /* Inicio HTML Cardápio by: Wendell (Donatello) */
 /* Cor bandana em hexadecimal: #7a46cc */
 /* Tartaruga: #2e4616 */
 #header {
     background-color: #2e4616;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    text-align: center;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header a:hover {
+    transform: scale(1.1);
 }
 
 #nav {
@@ -19,6 +80,7 @@
 }
 
 /* Fim HTML Cardápio by: Wendell (Donatello) */
+<<<<<<< HEAD
 /* contatos */
 
 #container-contatos {
@@ -47,3 +109,5 @@
 }
 
 /* fim Contatos */
+=======
+>>>>>>> 8fa6e841c1d7ee49b4109152ee980df7a362b670
