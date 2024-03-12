@@ -1,50 +1,91 @@
-
 /* index */
+
+#body-index{
+background-color: bisque;
+
+}
+
+#title-principal-index{
+color: black;
+
+}
+
 #hero-image-index{
     width: 100%;
-    height: 15vh;
-    background-color:aquamarine;
+    height: 30vh;
+    background-color:  rgb(255, 220, 177);
 }
 #caixas-index{
     display: flex;
     flex-direction:row;
    justify-content: space-around;
+  text-align: center;
 }
 
 #caixa-index-1{
 width: 20vw;
-height: 50vh;
-background-color: aqua;
+height: 40vh;
+background-color:   rgb(255, 220, 177);
 }
 
 #caixa-index-2{
     width: 20vw;
-    height: 50vh;
-    background-color: rgb(92, 5, 255);
+    height: 40vh;
+    background-color:   rgb(255, 220, 177);
 }
 
 #caixa-index-3{
     width: 20vw;
-height: 50vh;
-background-color: rgb(235, 4, 4);
+height:40vh;
+background-color:  rgb(255, 220, 177);
 }
 
 /* footer */
 #footer-index{
     width: 100%;
-    height: 9vh;
-    background-color: #0081bf;  
+    height: auto;
+    background-color: #2e4616;  
 }
  
 .fonte-footer-index{
-    font-size:1.063rem;
+    font-size:2.5vh;
     margin: 0;
     display: flex;
    justify-content: center;
    color: white;
  
 }
+/* fontes */
+.title-mvv{
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+/*  começo media */
+@media only screen and (min-width: 991px){
+
+    #header-index{
+        background-color: #2e4616;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+}
+
+@media only screen and (max-width: 1100px){
+
+    #header-index{
+        background-color: #2e4616;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+}
+/* fim media */
 /* fim index */
+
 /* Inicio HTML Cardápio by: Wendell (Donatello) */
 /* Cor bandana em hexadecimal: #7a46cc */
 /* Tartaruga: #2e4616 */
@@ -52,7 +93,8 @@ background-color: rgb(235, 4, 4);
     background-color: #2e4616;
     display: flex;
     justify-content: center;
-    flex-flow: row nowrap;
+    flex-flow: nowrap;
+    align-items: center;
     text-align: center;
 }
 
@@ -64,7 +106,7 @@ background-color: rgb(235, 4, 4);
     transform: scale(1.1);
 }
 
-#nav {
+#nav-roxa {
     background: #7a46cc;
 }
 
@@ -79,7 +121,6 @@ background-color: rgb(235, 4, 4);
 #texto-preto {
     color: black;
 }
-
 /* Fim HTML Cardápio by: Wendell (Donatello) */
 /* contatos */
 

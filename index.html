@@ -25,18 +25,16 @@
     <![endif]-->
 </head>
 
-<body>
+<body id="body-index">
   <!-- Inicio Header -->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12">
-        <div class="col-md-4">
+      <div class="col-md-12" id="header">
+        <a href="index.html">
           <img src="assets/img/logo.svg" alt="logo da pizzaria">
-        </div>
 
-        <div class="col-md-8">
-          <h1>Tudo Acaba em Pizza</h1>
-        </div>
+          <h1 id="texto-branco">Tudo Acaba em Pizza</h1>
+        </a>
       </div>
     </div>
 
@@ -44,8 +42,9 @@
   <!-- Fim Header -->
 
   <!-- Inicio Nav -->
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default" id="nav-azul">
     <div class="container-fluid">
+
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -56,45 +55,57 @@
           <span class="icon-bar"></span>
         </button>
 
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="index.html" id="texto-preto">Home <span
+                  class="sr-only">(current)</span></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                aria-expanded="false">Menu <span class="caret"></span></a>
+                aria-expanded="false" id="texto-preto">Menu <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="assets/html/cardapio.html">Cardápio</a></li>
+                <li><a href="assets/html/cardapio.html" id="texto-preto">Cardápio</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="assets/html/contatos.html">Contatos</a></li>
+                <li><a href="assets/html/contatos.html" id="texto-preto">Contatos</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="assets/html/funcionarios.html">Funcionários</a></li>
+                <li><a href="assets/html/funcionarios.html" id="texto-preto">Funcionários</a></li>
               </ul>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
-  </nav><!-- </nav> -->
+  </nav>
   <!-- Fim Nav -->
 
   <!--começo hero image -->
-  <div id="hero-image-index"></div>
+  <div id="hero-image-index">
+    <h1 class="title-mvv">Sobre a empresa</h1>
+    <p>A "Tudo acaba em pizza" foi criada no dia 02/06/2020 por quatro amigos que tinham o intuito de ter uma empresa na área da gastronomia, desde então vem entregando um trabalho ágio e eficaz. </p>
+  </div>
   <br>
   <!-- fim hero image -->
   <!-- começo main  -->
-<main id="caixas-index">
-  <div id="caixa-index-1"></div>
-  <div id="caixa-index-2"></div>
-  <div id="caixa-index-3"></div>
-</main>
-<br>
+  <main id="caixas-index">
+    <div id="caixa-index-1">
+      <h1 class="title-mvv">Missão</h1>
+      <p> Nossa missão é entregar uma trabalho com qualidade e velocidade</p>
+    </div>
+    <div id="caixa-index-2">
+      <h1 class="title-mvv">Visão</h1>
+      <p>Nossa visão é ser mundialmente conhecida</p>
+    </div>
+    <div id="caixa-index-3">
+      <h1 class="title-mvv">Valores</h1>
+      <p>Comprometimento, Confiança, Honestidade, Organização, Agilidade </p>
+    </div>
+  </main>
+  <br>
   <!-- fim main -->
   <!-- começo footer -->
   <footer id="footer-index">
     <p class="fonte-footer-index">Four ® | Agência Digital.</p>
     <p class="fonte-footer-index">© Todos os direitos reservados.</p>
-      </footer>
+  </footer>
   <!-- fim footer -->
 
   <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
