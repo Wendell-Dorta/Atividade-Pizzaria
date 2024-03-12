@@ -3,17 +3,30 @@
 /* Tartaruga: #2e4616 */
 #header {
     background-color: #2e4616;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    text-align: center;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header a:hover {
+    transform: scale(1.1);
 }
 
 #nav {
     background: #7a46cc;
 }
 
-#texto-branco{
+#texto-branco {
     color: white;
 }
 
 #texto-preto {
     color: black;
 }
+
 /* Fim HTML Cardápio by: Wendell (Donatello) */
