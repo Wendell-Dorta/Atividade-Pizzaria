@@ -68,6 +68,10 @@ background-color: rgb(235, 4, 4);
     background: #7a46cc;
 }
 
+#nav-red {
+    background-color: #D51B21;
+}
+
 #texto-branco {
     color: white;
 }
@@ -80,28 +84,76 @@ background-color: rgb(235, 4, 4);
 /* contatos */
 
 #container-contatos {
-    background-color: rgb(255, 0, 0);
-    width: 100vw;
-    height: 75.1vh;
+    background-color: bisque;
+    width: 98.9vw;
+    height: 69.5vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: left;
+}
+
+h2 {
+    margin-left: 0.5em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5vh;
+}
+
+#caixa {
+    padding: 1%;
+    border: 2px solid rgb(207, 186, 159);
+    box-shadow: 1px 1px 5px 2px rgb(161, 138, 138);
+    border-radius: 3px;
+    display:flex;
+    flex-flow: row;
+    flex-direction: row;
+
 }
 
 #nome {
-    background-color: rgb(17, 0, 255);
-    display: flex;
+    background-color: transparent;
+    width: 40vw;
 }
 
 #email {
-    background-color: rgb(17, 0, 255);
-    display: flex;
+    background-color: transparent;
+    width: 40vw;
 }
 
 #cel {
-    background-color: rgb(50, 42, 161);
+    background-color: transparent;
+    width: 39.4vw;
+}
+
+#botao {
+    margin-left: 85%;
+    margin-top: 3%;
+    width: 4.5em;
+    height: auto;
+}
+
+
+
+
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: #2e4616;
+    text-align: center;
+
+}
+
+.fonte-footer {
+    font-size: 2.5vh;
+    margin: 0 ;
     display: flex;
+    justify-content: center;
+    color: white;
+
 }
 
 /* fim Contatos */

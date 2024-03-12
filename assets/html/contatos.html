@@ -27,81 +27,92 @@
 
 <body>
   <!-- Inicio Header -->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12">
-        <div class="col-md-4">
-          <a href="../../index.html">
-            <img src="../img/logo.svg" alt="logo da pizzaria">
-          </a>
-        </div>
-
-        <div class="col-md-8">
-          <h1>Tudo Acaba em Pizza</h1>
-        </div>
+      <div class="col-md-12" id="header">
+        <a href="../../index.html">
+          <img src="../img/logo.svg" alt="logo da pizzaria">
+ 
+          <h1 id="texto-branco">Tudo Acaba em Pizza</h1>
+        </a>
       </div>
     </div>
-
+ 
   </div>
   <!-- Fim Header -->
 
-  <!-- Inicio Nav -->
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
+    <!-- Inicio Nav -->
+    <nav class="navbar navbar-default" id="nav-red">
+      <div class="container-fluid">
+   
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+   
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="../../index.html" id="texto-preto">Home <span
+                    class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false" id="texto-preto">Menu <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cardapio.html" id="texto-preto">Cardápio</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="contatos.html" id="texto-preto">Contatos</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="funcionarios.html" id="texto-preto">Funcionários</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- Fim Nav -->
 
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="../../index.html">Home <span class="sr-only">(current)</span></a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                aria-expanded="false">Menu <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="cardapio.html">Cardápio</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="contatos.html">Contatos</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="funcionarios.html">Funcionários</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-  </nav>
-  <!-- Fim Nav -->
-
-  <h1>Fale conosco !</h1>
+  <h2>Fale conosco!</h2>
 
   <main id="container-contatos">
+    <h3>Envie sua avalição para nós sabermos oque você achou 😊</h3>
+    <br>
 
-    <!-- nome -->
-    <label for="nome">Nome:*</label>
-    <input type="text" id="nome" placeholder="Nome" required>
+    <div id="caixa" class="container-fluid">
 
-    <!-- email -->
-    <label for="email">Email:*</label>
-    <input type="email" id="email" placeholder="Email" required>
+      <form action="">
+        <!-- nome -->
+        <div class="form-group row">
+          <label for="nome">Nome:*</label>
+          <input type="text" id="nome" placeholder="Nome" required>
+        </div>
 
-    <!-- celular -->
-    <label for="cel">Celular:*</label>
-    <input type="cel" id="cel" placeholder="(xx) xxxxx-xxxx" required>
-
-    <!-- botao enviar -->
-    <button id="botao">Enviar</button>
+        <!-- email -->
+        <div class="form-group row">
+          <label for="email">Email:*</label>
+          <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <!-- celular -->
+        <div class="form-group row">
+          <label for="cel">Celular:*</label>
+          <input type="cel" id="cel" placeholder="(xx) xxxxx-xxxx" required>
+        </div>
+        <!-- botao enviar -->
+        <button id="botao">Enviar</button>
+      </form>
+    </div>
+    </div>
   </main>
 
-
-
+  <footer id="footer">
+    <p class="fonte-footer">Four ® | Agência Digital.</p>
+    <p class="fonte-footer">© Todos os direitos reservados.</p>
+      </footer>
 
 
 
