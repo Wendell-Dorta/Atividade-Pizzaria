@@ -1,3 +1,4 @@
+
 /* Inicio HTML Cardápio by: Wendell (Donatello) */
 /* Cor bandana em hexadecimal: #7a46cc */
 /* Tartaruga: #2e4616 */
@@ -9,11 +10,40 @@
     background: #7a46cc;
 }
 
-#texto-branco{
+#texto-branco {
     color: white;
 }
 
 #texto-preto {
     color: black;
 }
+
 /* Fim HTML Cardápio by: Wendell (Donatello) */
+/* contatos */
+
+#container-contatos {
+    background-color: rgb(255, 0, 0);
+    width: 100vw;
+    height: 75.1vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#nome {
+    background-color: rgb(17, 0, 255);
+    display: flex;
+}
+
+#email {
+    background-color: rgb(17, 0, 255);
+    display: flex;
+}
+
+#cel {
+    background-color: rgb(50, 42, 161);
+    display: flex;
+}
+
+/* fim Contatos */
