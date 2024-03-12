@@ -44,3 +44,22 @@ background-color: rgb(235, 4, 4);
  
 }
 /* fim index */
+/* Inicio HTML Cardápio by: Wendell (Donatello) */
+/* Cor bandana em hexadecimal: #7a46cc */
+/* Tartaruga: #2e4616 */
+#header {
+    background-color: #2e4616;
+}
+
+#nav {
+    background: #7a46cc;
+}
+
+#texto-branco{
+    color: white;
+}
+
+#texto-preto {
+    color: black;
+}
+/* Fim HTML Cardápio by: Wendell (Donatello) */
