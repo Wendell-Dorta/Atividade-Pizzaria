@@ -43,12 +43,12 @@ background-color:  rgb(255, 220, 177);
 /* footer */
 #footer-index{
     width: 100%;
-    height: 9vh;
-    background-color: #0040c9;  
+    height: auto;
+    background-color: #2e4616;  
 }
  
 .fonte-footer-index{
-    font-size:1.063rem;
+    font-size:2.5vh;
     margin: 0;
     display: flex;
    justify-content: center;
@@ -106,8 +106,12 @@ background-color:  rgb(255, 220, 177);
     transform: scale(1.1);
 }
 
-#nav {
+#nav-roxa {
     background: #7a46cc;
+}
+
+#nav-azul {
+    background-color: #0040c9;
 }
 
 #texto-branco{
@@ -118,9 +122,4 @@ background-color:  rgb(255, 220, 177);
     color: black;
 }
 /* Fim HTML Cardápio by: Wendell (Donatello) */
-/* Fim HTML Cardápio by: Wendell (Donatello) */
-
-#texto-preto {
-    color: black;
-}
 /* Fim HTML Cardápio by: Wendell (Donatello) */
